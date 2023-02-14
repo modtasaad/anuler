@@ -50,7 +50,7 @@ if(this.img.length-1==this.i){
   this.i++;
 }
 this.photo=this.img[this.i];
-  this.timeout = setTimeout(()=>this.slide(),500);
+  this.timeout = setTimeout(()=>this.slide(),1000);
 }
 
 

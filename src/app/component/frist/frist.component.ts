@@ -11,8 +11,7 @@ getdata(e:any){
 this.data=e.target.value
 } 
 
-  remove(e:any){
-    // this.data=e.target.value
+  remove(){
     this.data="";
   }
 
